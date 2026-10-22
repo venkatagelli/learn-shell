@@ -14,4 +14,4 @@ echo "pid of background command $!"
 wait $!
 echo "linenumber $LINENO"
 echo "previous command exit status $?"
-echo "total time $SECONDS"
+echo "total time $SECONDS second"
