@@ -7,7 +7,7 @@ echo "scriptname $0"
 echo "real path $(realpath $0)"
 echo "who is running the script $USER"
 echo "directory of curent script  $PWD"
-echo "home directory of current user $HONE"
+echo "home directory of current user $HOME"
 echo "pid of the current script $$"
 sleep 10 &
 echo "pid of background command $!"
