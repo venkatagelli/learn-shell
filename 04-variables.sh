@@ -1,0 +1,8 @@
+#!/bin/bash
+
+start_time=$(date +%s)
+echo "script started at $start_time"
+end_time=$(date +%s)
+echo "script ended at $end_time"
+total_time=$(($end_time - $start_time))
+echo "time taken $total_time seconds"
