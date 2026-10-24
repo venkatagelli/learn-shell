@@ -13,6 +13,6 @@ validate(){
 fi
 }
 echo "proceeding..."
-dnf install nginx -y
+dnf install nginxxxx -y
 
 validate $? "nginx installation"
