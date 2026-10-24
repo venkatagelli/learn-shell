@@ -17,4 +17,4 @@ validate(){
 fi
 }
 
-validate $1
+validate $? "nginx installation"
