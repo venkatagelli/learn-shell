@@ -15,4 +15,4 @@ fi
 echo "proceeding..."
 dnf install nginxxxx -y
 
-validate $? "nginx installation"
+validate $? "nginxxxx installation"
