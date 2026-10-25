@@ -33,7 +33,7 @@ do
         dnf install ${package} -y &>> ${logs_file}
         validate $? "${package} installation"
     else
-        echo "${package} already installed"
+        echo "${package} already installed skipping"
     fi
 done
 echo "script execution completed at $(date +"%F %T")"
