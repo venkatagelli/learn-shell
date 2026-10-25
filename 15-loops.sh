@@ -21,7 +21,7 @@ validate(){
         echo "$2..failed" &>> ${logs_file}
         exit 1
     else
-        Echo "$2 ...succeeded" &>> ${logs_file}
+        echo "$2 ...succeeded" &>> ${logs_file}
     fi
 }
 
