@@ -25,5 +25,9 @@ validate(){
     fi
 }
 
-validate $? "ginx installation"
+for package in $@
+do
+    dnf install ${package} -y &>> ${logs_file}
+    validate $? "${package} installation"
+done
 echo "script execution completed at $(date +"%F %T")"
