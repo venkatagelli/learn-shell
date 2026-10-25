@@ -7,4 +7,6 @@ mkdir -p ${logs_folder}
 if [ $? -ne 0 ]; then
     echo "error" &>> ${logs_file}
     exit 1
+else 
+    echo "logfile created" &>>${logs_file}
 fi
